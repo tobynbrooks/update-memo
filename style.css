@@ -58,3 +58,12 @@ body {
   border-radius: 12px;
   display: block;
 }
+
+.photo-grid--single {
+  grid-template-columns: 1fr;
+}
+
+.photo-grid--single img {
+  height: auto;
+  object-fit: contain;
+}
